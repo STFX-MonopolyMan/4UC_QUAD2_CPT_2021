@@ -11,6 +11,7 @@ class Main {
     frame.setLocation(5, 5);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+    // Makes a window called hello world
     JLabel label = new JLabel("Hello world", SwingConstants.CENTER);
     frame.add(label);
 
